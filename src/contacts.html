@@ -33,15 +33,15 @@
         </section>
 
         <h1>Форма связи</h1>
-        <form>
+        <form id="contactForm">
             <label for="username">Ваше имя</label>
-            <input type="text" id="name" name="user_name">
+            <input type="text" id="name" name="user_name" required>
 
             <label for="phone">Ваш номер телефона</label>
-            <input type="text" id="phone" name="phone">
+            <input type="tel" id="phone" name="phone" required>
 
             <label for="email">Ваш email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
 
             <label for="course">Ваш курс:</label>
             <select id="course" name="course">
@@ -54,7 +54,7 @@
             </select>
 
             <label for="massage">Ваше обращение:</label>
-            <textarea id="massage" name="massage" rows="6"></textarea>
+            <textarea id="massage" name="massage" rows="6" required></textarea>
 
             <button type="submit" id="submit">Отправить</button>
             <button type="reset" id="reset">Очистить</button>

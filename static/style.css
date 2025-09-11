@@ -26,7 +26,7 @@ input {
 }
 
 input:focus {
-    background-color: green;
+    background-color: seagreen;
 }
 
 button {
@@ -41,4 +41,12 @@ button {
 button:hover {
     background-color: darkblue;
     color: crimson;
+}
+
+#contactForm {
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: seagreen;
+    padding: 10px;
+    max-width: 250px;
 }
